@@ -1,0 +1,12 @@
+.skip-content {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: black;
+  color: white;
+  padding: 8px;
+  z-index: 1;
+}
+.skip-content:focus {
+  top: 0;
+}
