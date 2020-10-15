@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="demo">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" />
+      </div>
+
+      <h3>Drink Options</h3>
+
+      <ul id="group1" class="radiogroup" role="radiogroup">
+        <li class="radio" role="radio">Water</li>
+        <li class="radio" role="radio">Tea</li>
+        <li class="radio" role="radio">Coffee</li>
+        <li class="radio" role="radio">Cola</li>
+        <li class="radio" role="radio">Ginger Ale</li>
+      </ul>
+
+      <input type="radio" id="male" name="gender" value="male" checked />
+      <label for="male">Male</label><br />
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label><br />
+      <input type="radio" id="other" name="gender" value="other" />
+      <label for="other">Other</label>
+
+      <div>
+        <button>Order a drink</button>
+      </div>
+    </div>
+
+    <script src="radiogroup.js"></script>
+  </body>
+</html>
