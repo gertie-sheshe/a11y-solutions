@@ -28,13 +28,28 @@
       <label for="male">Male</label><br />
       <input type="radio" id="female" name="gender" value="female" />
       <label for="female">Female</label><br />
-      <input type="radio" id="other" name="gender" value="other" />
+      <input
+        type="radio"
+        id="other"
+        name="gender"
+        value="other"
+        aria-hidden="true"
+      />
       <label for="other">Other</label>
 
       <div>
         <button>Order a drink</button>
       </div>
+
+      <span id="nameid">Press Me</span>
+      <button id="two" aria-labelledby="nameid two">Two</button>
     </div>
+
+    <button class="visually-hidden">Test ME</button>
+
+    <a href="main.css">Help</a>
+
+    <button>Great!</button>
 
     <script src="radiogroup.js"></script>
   </body>

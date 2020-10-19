@@ -10,6 +10,29 @@
   position: relative;
 }
 
+.visually-hidden:not(:focus):not(:active) {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+
+/* .visually-hidden:active,
+.visually-hidden:focus {
+  clip: auto;
+  clip-path: none;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+  white-space: inherit;
+} */
+
 .radio::before {
   content: '';
   display: block;
