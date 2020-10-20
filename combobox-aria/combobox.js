@@ -235,8 +235,6 @@
       newActive.classList.add('active');
 
       this.textbox.setActiveDescendant(newActive);
-
-      // FIXME: need to ensure focus stays on textbox, but report active list option
     },
   };
 
